@@ -65,9 +65,9 @@ draw_long_dog(500, 1, -500, 500)
 turtle.color(0, 1, 0)
 draw_long_dog(500, 0.5, -500, -100)
 
-for i in range(10):
-    draw_long_dog(500, 0.5, 0, 0)
-    turtle.right(15 * i)
+# for i in range(10):
+#     draw_long_dog(500, 0.5, 0, 0)
+#     turtle.right(15 * i)
 
 turtle.onscreenclick(click)
 turtle.done()
